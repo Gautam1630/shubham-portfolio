@@ -28,6 +28,10 @@ experience:
       title: init.g
       company: Thougtspot
       duration: August 2020
+    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
+      title: init.g
+      company: Thougtspot
+      duration: August 2020
 hackathons:
   enable: false
   item:
@@ -36,8 +40,11 @@ hackathons:
       image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793405/stickers/Hack_Cambridge_101_ozoq5d.png
       url: none
 certifications:
-  enable: false
+  enable: true
   item:
+    - title: Microsoft Azure Fundamentals
+      image: https://res.cloudinary.com/samrobbins/image/upload/v1592501459/microsoft-certified-fundamentals-badge_cpcgyn.svg
+      url: https://www.youracclaim.com/badges/b4cf7a86-eb83-478e-bfd0-9f427c3474a0/public_url
     - title: Microsoft Azure Fundamentals
       image: https://res.cloudinary.com/samrobbins/image/upload/v1592501459/microsoft-certified-fundamentals-badge_cpcgyn.svg
       url: https://www.youracclaim.com/badges/b4cf7a86-eb83-478e-bfd0-9f427c3474a0/public_url

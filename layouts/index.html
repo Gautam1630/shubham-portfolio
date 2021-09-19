@@ -106,28 +106,31 @@
 <section class="uk-margin-large-bottom uk-margin-large-top">
     <div class="uk-container">
         <h1 class="uk-heading-line  uk-heading-medium"><span>Portfolio</span></h1>
-        {{ range .Site.Data.homepage.portfolio.item }}
-        <div>
-        <h2 class="uk-text-center uk-text-bold uk-margin-large-top"> {{.title}} </h2>
-        <div class="uk-flex uk-flex-center">
-        <img src="{{.image}}" class="uk-width-medium uk-width-large@s uk-height-large contain" >
-        </div>
-        <p class="uk-text-center">{{.description}}</p>  
-        <div class="uk-flex uk-flex-center">
-            <div uk-grid>
-                {{ range .tools}}
+        <div class="uk-child-width-1-4@m uk-child-width-1-2  uk-text-center uk-flex-center" uk-grid
+            style="padding-left: 20px; padding-right: 20px">
+            {{ range .Site.Data.homepage.portfolio.item }}
             <div>
-                <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/{{.}}.svg" />
+            <h2 class="uk-text-center uk-text-bold uk-margin-large-top"> {{.title}} </h2>
+            <div class="uk-flex uk-flex-center">
+            <img src="{{.image}}" class="uk-width-medium uk-width-large@s uk-height-large contain" >
+            </div>
+            <p class="uk-text-center">{{.description}}</p>  
+            <div class="uk-flex uk-flex-center">
+                <div uk-grid>
+                    {{ range .tools}}
+                <div>
+                    <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/{{.}}.svg" />
+                </div>
+                {{end}}
+                </div>
+            </div>
+            <div class="uk-flex uk-flex-center uk-margin-medium-top"> 
+            <a href="{{.link}}" class="uk-text-center">Find out more</a>
+            </div>
             </div>
             {{end}}
-            </div>
         </div>
-        <div class="uk-flex uk-flex-center uk-margin-medium-top"> 
-        <a href="{{.link}}" class="uk-text-center">Find out more</a>
-        </div>
-        </div>
-        {{end}}
-
+    </div>
 </section>
 {{ end }}
 
@@ -209,7 +212,7 @@
 
 <section class="uk-margin-large-bottom">
     <div class="uk-container">
-        <h1 class="uk-heading-line  uk-heading-medium"><span>Expnce</span></h1>
+        <h1 class="uk-heading-line  uk-heading-medium"><span>Experience</span></h1>
 
         <div class="uk-child-width-1-4@m uk-child-width-1-2  uk-text-center uk-flex-center" uk-grid
             style="padding-left: 20px; padding-right: 20px">
