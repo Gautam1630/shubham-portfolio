@@ -68,12 +68,13 @@ portfolio:
     - title: Visibility Service
       description: sdsdfsdf
       image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793405/stickers/Hack_Cambridge_101_ozoq5d.png
-      duration: September 2014 - July 2018
       link: portfolio/hugo-portfolio-website/
+      tools:
+        - hello: weqwe
+        - hello: sfdsa
     - title: Visibility Service
       description: sdsdfsdf
       image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793405/stickers/Hack_Cambridge_101_ozoq5d.png
-      duration: September 2014 - July 2018
       link: portfolio/hugo-portfolio-website/
   filter:
     - label: Web Dev
